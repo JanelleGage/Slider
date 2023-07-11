@@ -5,12 +5,13 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: cursive;
+    background-color: rgb(188, 189, 189);
 }
 
 .container {
-    width: 500px;
+    width: 600px;
     height: 100px;
-    background-color: rgb(24, 203, 143);
+    background-color: rgb(205, 139, 8);
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     min-width: 400px;
@@ -21,13 +22,14 @@ body {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -50px;
+    top: -80px;
+    object-fit: cover;
 }
 
 .username {
